@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/Group.svg';
+import Logo from '../assets/Group.svg'
 import Payment from '../assets/payment-icons 1.svg'
 import Social from '../assets/Social icons.svg'
 

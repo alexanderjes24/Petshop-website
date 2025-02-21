@@ -1,15 +1,15 @@
 import React from "react";
 import heart from '../assets/heart.svg'
 type Product = {
-  title: string;
-  products: number;
-  img: string;
+  title: string
+  products: number
+  img: string
 };
 
 type BestsellingProps = {
-  heading?: string;
-  items: Product[];
-  columns?: number; // New prop to control column count
+  heading?: string
+  items: Product[]
+  columns?: number// New prop to control column count
 };
 
 function Bestselling({ heading, items, columns = 4 }: BestsellingProps) {
